@@ -4,14 +4,16 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 
 public class TestActivity extends ActionBarActivity {
-
+    Button b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
+        b = (Button)findViewById(R.id.search_button);
         // TE FODE PORRRAA!!!!
     }
 
