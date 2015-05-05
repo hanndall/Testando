@@ -12,7 +12,7 @@ public class TestActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-        // TE FODE PORRRA!!!!
+        // TE FODE PORRRAA!!!!
     }
 
 
